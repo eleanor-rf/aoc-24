@@ -26,7 +26,7 @@ for coord in dictionary:
                 elif i == 2 and dictionary[position] == "S":
                     count += 1
 
-print(count)
+print("Part 1 XMAS count:", count)
 
 ## Part 2
 # M.S
@@ -58,4 +58,4 @@ for coord in dictionary:
             if m == 2 and s == 2 and topleft != bottomright:
                 count2+=1
 
-print(count2)
+print("Part 2 X-MAS count:", count2)
